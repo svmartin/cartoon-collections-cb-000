@@ -10,8 +10,9 @@ def summon_captain_planet(collection)# code an argument here
   collection.map { |phrase| phrase.capitalize += "!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(collection)# code an argument here
   # Your code here
+  collection.any? { |word| word.length > 4 }
 end
 
 def find_the_cheese# code an argument here
