@@ -5,8 +5,9 @@ def roll_call_dwarves(collection)# code an argument here
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(collection)# code an argument here
   # Your code here
+  collection.map { |phrase| phrase.capitalize += "!"}
 end
 
 def long_planeteer_calls# code an argument here
