@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(collection)# code an argument here
   # Your code here
-  collection.map { |phrase| phrase.capitalize += "!"}
+  collection.map { |phrase| "#{phrase.capitalize}!" }
 end
 
 def long_planeteer_calls(collection)# code an argument here
